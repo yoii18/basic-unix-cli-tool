@@ -7,14 +7,14 @@ setup(
     more info visit: https://codingchallenges.fyi/challenges/challenge-wc
     """,
     version="0.0.1",
-    name="file_size",
+    name="final",
     py_modules=["main"],
     install_requires=[
         "click",
     ],
     entry_points={
         "console_scripts": [
-            "py_wc = main:file_size",
+            "py_wc = main:final",
         ],
     },
 )
